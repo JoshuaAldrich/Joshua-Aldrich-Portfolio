@@ -4,7 +4,6 @@
 <head>
     <link rel="stylesheet" href="/assets/css/style.css" />
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joshua Aldrich Portfolio</title>
 </head>
@@ -38,12 +37,13 @@
     <!--About me-->
     <section>
 
-    <section id="about-me" class="container">
-            <div>
+    <section id="about-me" class="about-me">
+            <div class="title">
                 <h2>About Me</h2>
             </div>
+
              <div>
-                <div class="aboutme-content">
+                <div class="aboutimage">
                     <img src="./assets/images/ProfilePicture.jpg" alt="Hello, I'm Josh" />
                 </div>
                 <p>Hello my name is Joshua Aldrich. I have had a passion for coding ever since I started my college degree. I ended up taking a break to focus on working for a couple years but decided to get back into it once I saved enough to join the UCF coding bootcamp. I have constantly watched videos on youtube and the passion for coding hasn't left so I'm glad to take this opportunity to make coding a career path.</p>
@@ -54,75 +54,67 @@
     <!--About me End-->
 
     <!-- Work -->
-    <main id="work" class="container">
+    <section id="work" class="my-work">
+        <div class="title">
+            <h2>Work</h2>
+        </div>
 
-        <div class="label">
+        <div class="projects-grid-wrapper">
+            <div class="projects-grid">
 
-        <h2 id="work">Work</h2>
-
-            <div class="img-container">
-
-                <div class="first">
-                    <a href="https://joshuaaldrich.github.io/run-buddy/" target="_blank"><img src="./assets/images/runbuddy.png" alt="Run Buddy (HTML & CSS)" /></a>
-                    <div class="text">
+                    <a href="https://joshuaaldrich.github.io/run-buddy/" target="_blank" class="runbuddy">
+                    <div class="project-label">
                         <h3>Run Buddy</h3>
                         <p>HTML / CSS</p>
                     </div>
-                </div>
+                    </a>
 
-                <div class="work">
-                    <a href="https://joshuaaldrich.github.io/Horiseon-Accessibility-changes/" target="_blank"><img src="./assets/images/horiseon.png" alt="Horiseon (HTML & CSS)" /></a>
-                    <div class="text">
+                    <a href="https://joshuaaldrich.github.io/Horiseon-Accessibility-changes/" target="_blank" class="horiseon">
+                    <div class="project-label">
                         <h3>Horiseon</h3>
                         <p>HTML / CSS</p>
                     </div>
-                </div>
+                    </a>
 
-                <div class="work">
-                    <a href="https://m.facebook.com/DD-10-LLC-101252281781627/" target="_blank"><img src="./assets/images/ddten.png" alt="In Progress" /></a>
-                    <div class="text">
+                    <a href="https://m.facebook.com/DD-10-LLC-101252281781627/" target="_blank" class="ddten">
+                    <div class="project-label">
                         <h3>In Progress</h3>
                         <p>HTML / CSS</p>
                     </div>
-                </div>
+                    </a>
 
-                <div class="work">
-                    <a href="https://github.com/JoshuaAldrich" target="_blank"><img src="./assets/images/javascript.png" alt="In Progress" /></a>
-                    <div class="text">
+                    <a href="https://github.com/JoshuaAldrich" target="_blank" class="javascript">
+                    <div class="project-label">
                         <h3>In Progress</h3>
                         <p>Javascript</p>
                     </div>
-                </div>
+                    </a>
 
-                <div class="work">
-                    <a href="https://github.com/JoshuaAldrich" target="_blank"><img src="./assets/images/python.png" alt="Application 5" /></a>
-                    <div class="text">
+                    <a href="https://github.com/JoshuaAldrich" target="_blank" class="python">
+                    <div class="project-label">
                         <h3>In Progress</h3>
                         <p>Python</p>
                     </div>
                 </div>
-
             </div>
-
         </div>
 
-    </main>
+    </section>
      <!-- Work End -->
 
     <!--Contact Me-->
 
-    <article id="contact" class="contact-me">
+    <article id="contact">
 
-        <div class="label">
-
-        <h2 id="contact-me">Contact Me</h2>
-    
-        <div class="contactme">
-        <p><img src="./assets/images/phone-icon.png" alt="Phone"/> <a href="tel:407.670.4797">407-670-4797</a></p>
-        <p><img src="./assets/images/email-icon.png" alt="E-mail"/> <a href="mailto:joshuataldrich@gmail.com">joshuataldrich@gmail.com</a></p>
-        <p><img src="./assets/images/github-icon.png" alt="GitHub"/> <a href="https://github.com/JoshuaAldrich" target="blank">Github</a></p>
-        <p><img src="./assets/images/linkedin-icon.png" alt="LinkedIn"/> <a href="https://www.linkedin.com/in/joshua-aldrich-4924b323b/" target="blank">LinkedIn</a></p>
-        </div>
+        <h2 id="contact-me" class="title">Contact Me</h2>
+        
+        <div class="content-wrapper">
+            <div class="contact-list">
+                <p><img src="./assets/images/phone-icon.png" alt="Phone"/> <a href="tel:407.670.4797">407-670-4797</a></p>
+                <p><img src="./assets/images/email-icon.png" alt="E-mail"/> <a href="mailto:joshuataldrich@gmail.com">joshuataldrich@gmail.com</a></p>
+                <p><img src="./assets/images/github-icon.png" alt="GitHub"/> <a href="https://github.com/JoshuaAldrich" target="blank">Github</a></p>
+                <p><img src="./assets/images/linkedin-icon.png" alt="LinkedIn"/> <a href="https://www.linkedin.com/in/joshua-aldrich-4924b323b/" target="blank">LinkedIn</a></p>
+            </div>
         </div>
 
     </article>
