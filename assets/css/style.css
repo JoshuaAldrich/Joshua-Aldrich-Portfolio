@@ -226,6 +226,11 @@ main h2 {
     background-image: url(/assets/images/horiseon.png);
 }
 
+/*changes made to hover on work section*/
+.firstwork:hover, .work:hover{
+    opacity: 0.5;
+}
+
 .work.img-2{
     background-image: url(/assets/images/ddten.png);
     background-position: top right;
@@ -253,7 +258,7 @@ main h2 {
 }
 
 /*adds the ability to click href*/
-.work a {
+.work a, .firstwork a {
     position: absolute;
     top: 0;
     left: 0;
