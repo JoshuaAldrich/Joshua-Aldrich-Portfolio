@@ -213,7 +213,7 @@ main h2 {
 
 
 .firstwork.img{
-    background-image: url(/assets/images/runbuddy.PNG);
+    background-image: url("../images/runbuddy.PNG");
     background-size: cover;
     height: 600px;
     background-repeat: no-repeat;
@@ -221,7 +221,7 @@ main h2 {
 }
 
 .work.img-1{
-    background-image: url(/assets/images/horiseon.png);
+    background-image: url("../images/horiseon.png");
 }
 
 /*changes made to hover on work section*/
@@ -230,21 +230,21 @@ main h2 {
 }
 
 .work.img-2{
-    background-image: url(/assets/images/ddten.png);
+    background-image: url("../images/ddten.png");
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .work.img-3{
-    background-image: url(/assets/images/javascript.png);
+    background-image: url("../images/javascript.png");
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .work.img-4{
-    background-image: url(/assets/images/python.png);
+    background-image: url("../images/python.png");
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
