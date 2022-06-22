@@ -9,9 +9,9 @@
 ##Website
 [Link to website](https://joshuaaldrich.github.io/Joshua-Portfolio/)
 
-![Screenshot1](assets\images\joshuaaldrich.github.io_Joshua-Portfolio_.png)
+![Screenshot1](..\images\joshuaaldrich.github.io_Joshua-Portfolio_.png)
 
-![Screenshot2](assets\images\joshuaaldrich.github.io_Joshua-Portfolio_(iPhone X).png)
+![Screenshot2](..\images\joshuaaldrich.github.io_Joshua-Portfolio_(iPhone X).png)
 
 
 
