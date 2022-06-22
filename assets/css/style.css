@@ -75,6 +75,7 @@ h2 {
     font-family: "century gothic",Verdana,sans-serif;
 }
 
+/*Hero changed to include the nav bar and header*/
 .hero {
     display: flex;
     justify-content: center;
@@ -89,6 +90,7 @@ h2 {
     background-attachment: fixed;
     background-position: 80%;
 }
+/*hero end*/
 
 .container {
     margin: 100px auto;
@@ -111,7 +113,12 @@ section h2 {
     text-align: right;
     padding-top: 30px;
     padding-right: 30px;
-    flex: 1 30%;
+    flex: 1 20%;
+}
+
+/*hover added to about me*/
+section h2:hover {
+    opacity: 0.7;
 }
 
 .aboutme {
@@ -142,6 +149,10 @@ section h2 {
     float: left;
     margin: 20px 20px 0 0;
     flex: 2 0 0;
+}
+
+.about-img img:hover {
+    opacity: 0.5;
 }
 
 /* work section */
