@@ -99,7 +99,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     flex: 1 100%;
-    align-items: center;
     justify-content: center;
 }
 
@@ -160,8 +159,9 @@ main h2 {
     color: var(--secondary);
     font-size: 50px;
     font-weight: lighter;
-    text-align: right;
+    justify-content:flex-end;
     padding-top: 30px;
+    display: flex;
     flex: 1 20%;;
     padding-right: 30px;
 }
@@ -210,7 +210,7 @@ main h2 {
 
 .firstwork.img .text{
     position: relative;
-    top: 50px;
+    top: 50%;
 }
 
 
@@ -252,11 +252,6 @@ main h2 {
     background-repeat: no-repeat;
 }
 
-.work img {
-    max-width: 100%;
-    display: block;
-}
-
 /*adds the ability to click href*/
 .work a, .firstwork a {
     position: absolute;
@@ -271,9 +266,9 @@ main h2 {
 
 
 .img-container .text {
-    margin: 0 30px;
+    margin: 5px;
     display: inline-block;
-    padding: 20px;
+    padding: 5px;
     background-color: var(--tertiary);
 }
 
@@ -281,10 +276,10 @@ main h2 {
     color: var(--secondary);
     font-size: 1.2vw;
     font-weight: lighter;
-    padding-top: 10px;
-    padding-right: 5px;
+    padding-top: 15px;
+    padding-right: 10px;
     padding-bottom: 15px;
-    padding-left: 40px;
+    padding-left: 10px;
 }
 
 .text p {
