@@ -68,6 +68,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: var(--primary);
+    border: 5px solid var(--tertiary);
 }
 
 h2 {
@@ -114,11 +115,6 @@ section h2 {
     flex: 1 20%;
 }
 
-/*hover added to about me*/
-section h2:hover {
-    opacity: 0.7;
-}
-
 .aboutme {
     flex: 2 70%;
     display: flex;
@@ -143,6 +139,7 @@ section h2:hover {
 
 .about-img img {
     max-width: 200px;
+    border: 5px solid var(--tertiary);
     height: auto;
     float: left;
     margin: 20px 20px 0 0;
@@ -177,6 +174,7 @@ main h2 {
 
 .img-container .firstwork {
     flex: 1 100%;
+    border: 5px solid var(--tertiary);
     position: relative;
     display: inline-block;
     background-color: var(--secondary);
@@ -306,10 +304,6 @@ article h2 {
     padding-right: 30px;
 }
 
-article h2:hover {
-    opacity: 0.5;
-}
-
 .contactme {
     flex: 2 70%;
     display: flex;
@@ -333,8 +327,10 @@ article h2:hover {
     transition: color 0.0s ease-in-out 0s;
 }
 
+/*contact me hover options*/
 .contactme a:hover {
     color: var(--tertiary);
+    border: 5px solid var(--secondary);
 }
 /*contact me end*/
 
