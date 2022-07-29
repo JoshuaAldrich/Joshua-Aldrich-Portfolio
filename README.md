@@ -11,6 +11,6 @@
 ##Website
 [Link to website](https://joshuaaldrich.github.io/Joshua-Portfolio/)
 
-![](assets\images\updatedscreen.png)
+![](joshuaaldrich.github.io_Joshua-Portfolio_.png)
 
 ![](joshuaaldrich.github.io*Joshua-Portfolio*(iPhone X).png)
