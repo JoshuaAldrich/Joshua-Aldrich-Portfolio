@@ -13,4 +13,4 @@
 
 ![](joshuaaldrich.github.io_Joshua-Portfolio_.png)
 
-![](joshuaaldrich.github.io*Joshua-Portfolio*(iPhone X).png)
+![](assets\images\updatedscreen.png)
