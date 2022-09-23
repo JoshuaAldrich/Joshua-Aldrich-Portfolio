@@ -11,6 +11,6 @@
 ##Website
 [Link to website](https://joshuaaldrich.github.io/Joshua-Portfolio/)
 
-![](joshuaaldrich.github.io_updatedscreen_.png)
+![](https://github.com/JoshuaAldrich/Joshua-Portfolio/blob/main/updatedscreen.png)
 
 
