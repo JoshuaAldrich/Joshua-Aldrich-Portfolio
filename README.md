@@ -12,5 +12,3 @@
 [Link to website](https://joshuaaldrich.github.io/Joshua-Portfolio/)
 
 ![](https://github.com/JoshuaAldrich/Joshua-Portfolio/blob/main/updatedscreen.png)
-
-
